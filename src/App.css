@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* home */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.container-bl {
+  background: #000;
+}
+header {
+  width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+.logo {
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  margin: 0 5px;
+  font-size: 20px;
+}
+.link:hover {
+  text-decoration: underline;
+}
+/* all */
+.all-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.all-link {
+  background: #000;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+
+.all-link:hover,
+.active {
+  background: #818181;
+}
+/* all-products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5rem 0;
+  gap: 40px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 250px;
+  /* height: fit-content; */
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: .5px .5px 20px black;
+}
+.card img {
+  height: 250px;
+  object-fit: cover;
+  cursor: pointer;
+  transition-duration: 2s;
+}
